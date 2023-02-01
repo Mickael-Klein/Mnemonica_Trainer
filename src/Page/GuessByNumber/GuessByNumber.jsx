@@ -47,7 +47,7 @@ export default function GuessByNumber() {
   }
 
   useEffect(() => {
-    getRandomCard();
+    getRandomCard(); // eslint-disable-next-line
   }, []);
 
   useEffect(() => {
@@ -69,7 +69,7 @@ export default function GuessByNumber() {
       let trueCard = document.getElementById(`${randomCard.MnemonicaId}`);
       trueCard.classList.add("trueCard");
       setResult(true);
-    }
+    } // eslint-disable-next-line
   }, [errorsRemaining]);
 
   const spades = filterByID(Cards, 1, 13);
