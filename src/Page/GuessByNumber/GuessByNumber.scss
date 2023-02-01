@@ -1,0 +1,315 @@
+html,
+body {
+  margin: 0;
+  height: 100vh;
+  position: relative;
+}
+
+.GuessByNumber {
+  .guess {
+    height: 100%;
+  }
+  .guess__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 10%;
+    padding: 0 1rem;
+
+    @media screen and (max-width: 500px) {
+      flex-flow: column;
+      gap: 25px;
+    }
+
+    .containerInfo {
+      width: 240px;
+      height: 347px;
+      border: solid black 1px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 10px;
+      color: white;
+      font-size: 2.2rem;
+      position: relative;
+      background: #2a2b2f;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+        inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+        5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+      padding-left: 20px;
+
+      @media screen and (max-width: 500px) {
+        width: 80%;
+        height: 20vh;
+      }
+
+      &::before {
+        content: "";
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgba(255, 255, 255, 0.03);
+      }
+
+      .guess__errorCounter {
+        font-size: 1.75rem;
+      }
+
+      .resetBtn {
+        position: absolute;
+        z-index: 2;
+        bottom: 10px;
+        right: 10px;
+        @media screen and (max-width: 500px) {
+          bottom: 50px;
+          right: 15px;
+        }
+
+        button {
+          border: none;
+          background: rgb(68, 68, 68);
+          color: white;
+          border-radius: 2px;
+          padding: 0.4rem;
+          @media screen and (max-width: 500px) {
+            padding: 0.2rem;
+          }
+
+          &:hover {
+            background-color: rgb(58, 58, 58);
+          }
+        }
+      }
+    }
+
+    .containerCard {
+    }
+
+    .flip-card {
+      background-color: transparent;
+      width: 240px;
+      height: 347px;
+      @media screen and (max-width: 500px) {
+        width: 250px;
+        height: 280px;
+      }
+      // border: 1px solid #6e6e6e;
+      perspective: 1000px;
+      background-color: white;
+      cursor: default;
+      user-select: none;
+    }
+
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.8s;
+      transform-style: preserve-3d;
+      border: 1px solid #6e6e6e;
+    }
+
+    .flip-card-inner.rotate {
+      transform: rotateY(180deg);
+    }
+
+    .flip-card-front,
+    .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+    }
+
+    .flip-card-front {
+      background-image: url(../../Assets/Image/lilyFlower.webp);
+      background-repeat: repeat;
+    }
+
+    .flip-card-back {
+      transform: rotateY(180deg);
+      font-size: 7rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &__cardContent {
+        .red {
+          color: red;
+        }
+        .black {
+          color: black;
+        }
+      }
+
+      &__cardMnemonicaId {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 13rem;
+        opacity: 0.3;
+        z-index: -2;
+      }
+
+      &--true {
+        background-color: rgb(76, 180, 76);
+      }
+
+      &--false {
+        background-color: rgb(235, 52, 52);
+      }
+    }
+  }
+
+  .choice {
+    position: absolute;
+    bottom: 1vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+    .lineOfCards {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      flex-flow: row wrap;
+      gap: 3px;
+
+      button {
+        width: 7%;
+        min-width: 50px;
+        padding: 0;
+        border: none;
+        background: none;
+        transition: background 0.2s ease-in-out;
+        cursor: pointer;
+        margin-bottom: 2px;
+
+        &:hover {
+          background: rgb(165, 165, 165);
+
+          .card__content {
+            transform: scale(1.1);
+          }
+        }
+
+        @media screen and (max-width: 1205px) {
+          .card {
+            &__content {
+              font-size: 2.5rem;
+            }
+          }
+        }
+        @media screen and (max-width: 1080px) {
+          .card {
+            &__content {
+              font-size: 2.3rem;
+            }
+          }
+        }
+        @media screen and (max-width: 969px) {
+          .card {
+            &__content {
+              font-size: 2rem;
+            }
+          }
+        }
+        @media screen and (max-width: 849px) {
+          .card {
+            &__content {
+              font-size: 1.75rem;
+            }
+          }
+        }
+        @media screen and (max-width: 755px) {
+          .card {
+            &__content {
+              font-size: 1.5rem;
+            }
+          }
+        }
+        @media screen and (max-width: 675px) {
+          .card {
+            &__content {
+              font-size: 1.25rem;
+            }
+          }
+        }
+        @media screen and (max-width: 500px) {
+          .card {
+            &__content {
+              font-size: 1.2rem;
+            }
+          }
+        }
+      }
+
+      .trueCard {
+        position: relative;
+
+        &::after {
+          position: absolute;
+          top: 0;
+          left: 0;
+          content: "";
+          width: 100%;
+          height: 100%;
+          background: rgba(65, 255, 80, 0.7);
+          user-select: none;
+          cursor: default;
+        }
+
+        &:hover {
+          background: none;
+
+          .card__content {
+            transform: scale(1);
+          }
+        }
+      }
+
+      .falseCard {
+        position: relative;
+
+        &::after {
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: 2;
+          content: "";
+          width: 100%;
+          height: 100%;
+          background: rgba(65, 65, 65, 0.7);
+          user-select: none;
+          cursor: default;
+        }
+
+        &:hover {
+          background: none;
+
+          .card__content {
+            transform: scale(1);
+          }
+        }
+      }
+    }
+    .spade .suit,
+    .club .suit {
+      color: black;
+    }
+    .heart .suit,
+    .diamond .suit {
+      color: red;
+    }
+  }
+}

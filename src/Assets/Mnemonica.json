@@ -1,0 +1,368 @@
+{
+  "deck": [
+    {
+      "id": 1,
+      "MnemonicaId": 7,
+      "number": "A",
+      "symbol": "♠",
+      "colorOfSymbol": "black"
+    },
+    {
+      "id": 2,
+      "MnemonicaId": 10,
+      "number": "2",
+      "symbol": "♠",
+      "colorOfSymbol": "black"
+    },
+    {
+      "id": 3,
+      "MnemonicaId": 21,
+      "number": "3",
+      "symbol": "♠",
+      "colorOfSymbol": "black"
+    },
+    {
+      "id": 4,
+      "MnemonicaId": 40,
+      "number": "4",
+      "symbol": "♠",
+      "colorOfSymbol": "black"
+    },
+    {
+      "id": 5,
+      "MnemonicaId": 16,
+      "number": "5",
+      "symbol": "♠",
+      "colorOfSymbol": "black"
+    },
+    {
+      "id": 6,
+      "MnemonicaId": 15,
+      "number": "6",
+      "symbol": "♠",
+      "colorOfSymbol": "black"
+    },
+    {
+      "id": 7,
+      "MnemonicaId": 37,
+      "number": "7",
+      "symbol": "♠",
+      "colorOfSymbol": "black"
+    },
+    {
+      "id": 8,
+      "MnemonicaId": 22,
+      "number": "8",
+      "symbol": "♠",
+      "colorOfSymbol": "black"
+    },
+    {
+      "id": 9,
+      "MnemonicaId": 9,
+      "number": "9",
+      "symbol": "♠",
+      "colorOfSymbol": "black"
+    },
+    {
+      "id": 10,
+      "MnemonicaId": 34,
+      "number": "10",
+      "symbol": "♠",
+      "colorOfSymbol": "black"
+    },
+    {
+      "id": 11,
+      "MnemonicaId": 45,
+      "number": "J",
+      "symbol": "♠",
+      "colorOfSymbol": "black"
+    },
+    {
+      "id": 12,
+      "MnemonicaId": 48,
+      "number": "Q",
+      "symbol": "♠",
+      "colorOfSymbol": "black"
+    },
+    {
+      "id": 13,
+      "MnemonicaId": 31,
+      "number": "K",
+      "symbol": "♠",
+      "colorOfSymbol": "black"
+    },
+    {
+      "id": 14,
+      "MnemonicaId": 43,
+      "number": "A",
+      "symbol": "♣",
+      "colorOfSymbol": "black"
+    },
+    {
+      "id": 15,
+      "MnemonicaId": 27,
+      "number": "2",
+      "symbol": "♣",
+      "colorOfSymbol": "black"
+    },
+    {
+      "id": 16,
+      "MnemonicaId": 4,
+      "number": "3",
+      "symbol": "♣",
+      "colorOfSymbol": "black"
+    },
+    {
+      "id": 17,
+      "MnemonicaId": 1,
+      "number": "4",
+      "symbol": "♣",
+      "colorOfSymbol": "black"
+    },
+    {
+      "id": 18,
+      "MnemonicaId": 30,
+      "number": "5",
+      "symbol": "♣",
+      "colorOfSymbol": "black"
+    },
+    {
+      "id": 19,
+      "MnemonicaId": 50,
+      "number": "6",
+      "symbol": "♣",
+      "colorOfSymbol": "black"
+    },
+    {
+      "id": 20,
+      "MnemonicaId": 47,
+      "number": "7",
+      "symbol": "♣",
+      "colorOfSymbol": "black"
+    },
+    {
+      "id": 21,
+      "MnemonicaId": 33,
+      "number": "8",
+      "symbol": "♣",
+      "colorOfSymbol": "black"
+    },
+    {
+      "id": 22,
+      "MnemonicaId": 44,
+      "number": "9",
+      "symbol": "♣",
+      "colorOfSymbol": "black"
+    },
+    {
+      "id": 23,
+      "MnemonicaId": 24,
+      "number": "10",
+      "symbol": "♣",
+      "colorOfSymbol": "black"
+    },
+    {
+      "id": 24,
+      "MnemonicaId": 36,
+      "number": "J",
+      "symbol": "♣",
+      "colorOfSymbol": "black"
+    },
+    {
+      "id": 25,
+      "MnemonicaId": 13,
+      "number": "Q",
+      "symbol": "♣",
+      "colorOfSymbol": "black"
+    },
+    {
+      "id": 26,
+      "MnemonicaId": 18,
+      "number": "K",
+      "symbol": "♣",
+      "colorOfSymbol": "black"
+    },
+    {
+      "id": 27,
+      "MnemonicaId": 51,
+      "number": "A",
+      "symbol": "♥",
+      "colorOfSymbol": "red"
+    },
+    {
+      "id": 28,
+      "MnemonicaId": 2,
+      "number": "2",
+      "symbol": "♥",
+      "colorOfSymbol": "red"
+    },
+    {
+      "id": 29,
+      "MnemonicaId": 28,
+      "number": "3",
+      "symbol": "♥",
+      "colorOfSymbol": "red"
+    },
+    {
+      "id": 30,
+      "MnemonicaId": 5,
+      "number": "4",
+      "symbol": "♥",
+      "colorOfSymbol": "red"
+    },
+    {
+      "id": 31,
+      "MnemonicaId": 8,
+      "number": "5",
+      "symbol": "♥",
+      "colorOfSymbol": "red"
+    },
+    {
+      "id": 32,
+      "MnemonicaId": 23,
+      "number": "6",
+      "symbol": "♥",
+      "colorOfSymbol": "red"
+    },
+    {
+      "id": 33,
+      "MnemonicaId": 41,
+      "number": "7",
+      "symbol": "♥",
+      "colorOfSymbol": "red"
+    },
+    {
+      "id": 34,
+      "MnemonicaId": 14,
+      "number": "8",
+      "symbol": "♥",
+      "colorOfSymbol": "red"
+    },
+    {
+      "id": 35,
+      "MnemonicaId": 17,
+      "number": "9",
+      "symbol": "♥",
+      "colorOfSymbol": "red"
+    },
+    {
+      "id": 36,
+      "MnemonicaId": 38,
+      "number": "10",
+      "symbol": "♥",
+      "colorOfSymbol": "red"
+    },
+    {
+      "id": 37,
+      "MnemonicaId": 20,
+      "number": "J",
+      "symbol": "♥",
+      "colorOfSymbol": "red"
+    },
+    {
+      "id": 38,
+      "MnemonicaId": 11,
+      "number": "Q",
+      "symbol": "♥",
+      "colorOfSymbol": "red"
+    },
+    {
+      "id": 39,
+      "MnemonicaId": 35,
+      "number": "K",
+      "symbol": "♥",
+      "colorOfSymbol": "red"
+    },
+    {
+      "id": 40,
+      "MnemonicaId": 39,
+      "number": "A",
+      "symbol": "♦",
+      "colorOfSymbol": "red"
+    },
+    {
+      "id": 41,
+      "MnemonicaId": 19,
+      "number": "2",
+      "symbol": "♦",
+      "colorOfSymbol": "red"
+    },
+    {
+      "id": 42,
+      "MnemonicaId": 12,
+      "number": "3",
+      "symbol": "♦",
+      "colorOfSymbol": "red"
+    },
+    {
+      "id": 43,
+      "MnemonicaId": 42,
+      "number": "4",
+      "symbol": "♦",
+      "colorOfSymbol": "red"
+    },
+    {
+      "id": 44,
+      "MnemonicaId": 25,
+      "number": "5",
+      "symbol": "♦",
+      "colorOfSymbol": "red"
+    },
+    {
+      "id": 45,
+      "MnemonicaId": 6,
+      "number": "6",
+      "symbol": "♦",
+      "colorOfSymbol": "red"
+    },
+    {
+      "id": 46,
+      "MnemonicaId": 3,
+      "number": "7",
+      "symbol": "♦",
+      "colorOfSymbol": "red"
+    },
+    {
+      "id": 47,
+      "MnemonicaId": 29,
+      "number": "8",
+      "symbol": "♦",
+      "colorOfSymbol": "red"
+    },
+    {
+      "id": 48,
+      "MnemonicaId": 52,
+      "number": "9",
+      "symbol": "♦",
+      "colorOfSymbol": "red"
+    },
+    {
+      "id": 49,
+      "MnemonicaId": 49,
+      "number": "10",
+      "symbol": "♦",
+      "colorOfSymbol": "red"
+    },
+    {
+      "id": 50,
+      "MnemonicaId": 32,
+      "number": "J",
+      "symbol": "♦",
+      "colorOfSymbol": "red"
+    },
+    {
+      "id": 51,
+      "MnemonicaId": 46,
+      "number": "Q",
+      "symbol": "♦",
+      "colorOfSymbol": "red"
+    },
+    {
+      "id": 52,
+      "MnemonicaId": 26,
+      "number": "K",
+      "symbol": "♦",
+      "colorOfSymbol": "red"
+    }
+  ]
+}
